@@ -1,0 +1,7 @@
+Para o projeto funcionar  deve se seguir a ordem dos comandos:
+
+npm install
+
+Para rodar:
+
+node .
