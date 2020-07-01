@@ -1,5 +1,5 @@
 module.exports =  function(app){
-    var controller = app.controller.curso;
+    var controller = app.controllers.curso;
 
     app.post('/cursos', controller.salvaCurso);
     app.get('/cursos', controller.listaCurso);

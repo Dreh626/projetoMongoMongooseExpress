@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+require('mongoose-type-email');
 module.exports = function (){
     var schema = mongoose.Schema({
         nome:{

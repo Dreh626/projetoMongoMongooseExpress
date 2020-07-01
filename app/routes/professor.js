@@ -1,5 +1,5 @@
 module.exports = function (app){
-    var controller = app.controller.professor;
+    var controller = app.controllers.professor;
 
     app.post('/professores', controller.salvaProfessor);
     app.get('professores', controller.listaProfessor);
